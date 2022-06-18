@@ -1,5 +1,5 @@
 ﻿string[] countries = {"RSA", "USA", "Russia", "England", "Spain", "Chaina", "CAR", "UAE", "Iran", "Aruba"};
-string[] result = new string[countries.Length];
+string[] res = new string[countries.Length];
 
 
 void NewArr(string[] array1, string[] array2)
@@ -24,7 +24,7 @@ void Print(string[] mas)
     Console.WriteLine();
 }
 
-NewArr(countries, result);
+NewArr(countries, res);
 Print(countries);
 Console.WriteLine();
-Print(result);
+Print(res);
